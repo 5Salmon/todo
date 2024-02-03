@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List-App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="To-Do-Img/icon.png" alt=""></h2>
+            <div>
+                <form class="form">
+                    <input type="text" id="Form-date" name="Date" placeholder="Date">
+                    <input type="text" id="Form-task" name="Task" placeholder="task-to-do">
+                    <input type="text" id="Form-description" name="Description" placeholder="description">
+                    <button onclick="addTask()">Add</button>
+                </form>
+            </div>
+            <ul id="Task-List">
+                <li class="checked">Task 1</li>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
